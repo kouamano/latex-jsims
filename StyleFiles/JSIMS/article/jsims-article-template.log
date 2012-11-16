@@ -1,0 +1,304 @@
+This is pTeX, Version 3.141592-p3.1.9 (euc) (Web2C 7.5.4) (format=platex-euc 2009.9.19)  25 FEB 2010 14:38
+**jsims-article-template.tex
+(./jsims-article-template.tex
+pLaTeX2e <2006/01/04>+0 (based on LaTeX2e <2003/12/01> patch level 0)
+(./jsimsarticle.cls
+Document Class: jsimsarticle 2001/04/21 v1.4e Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen118
+)
+(/home/kamano/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/kamano/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1998/06/05 v1.11 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/home/kamano/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 1998/05/27 v1.0h Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/kamano/texmf/tex/latex/graphics/trig.sty
+Package: trig 1994/10/16 v1.08 sin cos tan (DPC)
+)
+(/home/kamano/texmf/tex/latex/graphics/graphics.cfg)
+Package graphics Info: Driver file: dvips.def on input line 85.
+
+(/home/kamano/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1998/05/03 v3.0f Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen119
+\Gin@req@width=\dimen120
+)
+(/home/kamano/texmf/tex/latex/graphics/epsfig.sty
+Package: epsfig 1996/10/04 v1.7 (e)psfig emulation (SPQR)
+\epsfxsize=\dimen121
+\epsfysize=\dimen122
+)
+(/home/kamano/texmf/tex/latex/graphics/color.sty
+Package: color 1998/05/27 v1.0g Standard LaTeX Color (DPC)
+
+(/home/kamano/texmf/tex/latex/graphics/color.cfg)
+Package color Info: Driver file: dvips.def on input line 130.
+
+(/home/kamano/texmf/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1998/05/03 v3.0f Driver-dependant file (DPC,SPQR)
+))
+(/usr/share/texmf/ptex/platex/base/ascmac.sty
+(/usr/share/texmf/ptex/platex/base/tascmac.sty
+\@savetbaselineshift=\dimen123
+\@saveybaselineshift=\dimen124
+\scb@x=\box41
+\scscb@x=\box42
+\@bw=\dimen125
+\@nbox=\box43
+\@nbody=\box44
+\@scw=\dimen126
+\@itemh=\dimen127
+\@iboxpos=\toks16
+\@iboxstr=\box45
+\@bwsp=\box46
+\@@bwsp=\box47
+\@bcal=\count89
+\shaderule=\dimen128
+))
+(/usr/share/texmf/tex/latex/carlisle/colortbl.sty
+Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+
+(/usr/share/texmf/tex/latex/tools/array.sty
+Package: array 2003/12/17 v2.4a Tabular extension package (FMi)
+\col@sep=\dimen129
+\extrarowheight=\dimen130
+\NC@list=\toks17
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+\everycr=\toks18
+\minrowclearance=\skip45
+)
+(/usr/share/texmf/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen131
+) (./jsimsfancyhdr.sty
+\fancy@headwidth=\skip46
+\f@ncyO@elh=\skip47
+\f@ncyO@erh=\skip48
+\f@ncyO@olh=\skip49
+\f@ncyO@orh=\skip50
+\f@ncyO@elf=\skip51
+\f@ncyO@erf=\skip52
+\f@ncyO@olf=\skip53
+\f@ncyO@orf=\skip54
+)
+(/usr/share/texmf/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+
+LaTeX Warning: Unused global option(s):
+    [a4j].
+
+(./jsims-article-template.aux)
+\openout1 = `jsims-article-template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 144.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 144.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 144.
+
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 144.
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 144.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 144.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.5> on input line 144.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.34996> on input line 144.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5.25> on input line 144.
+
+Overfull \hbox (1.4487pt too wide) in paragraph at lines 144--144
+ [] 
+ []
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.5> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 144.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.5> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 144.
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 144.
+
+
+Overfull \hbox (1.4487pt too wide) in paragraph at lines 144--144
+ [] 
+ []
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 148.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 148.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 153.
+
+(/usr/share/texmf/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.5> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 153.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 153.
+
+
+Underfull \vbox (badness 4608) has occurred while \output is active []
+
+ [1
+
+
+]
+(./fig-snapshot.tex
+File: fig-1-B.eps Graphic file (type eps)
+ <fig-1-B.eps>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 6.
+)
+
+LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 187.
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 187--188
+[]\JY1/mc/m/n/10.5 本 \OT1/cmr/m/n/10.95 L[]T[]X \JY1/mc/m/n/10.5 スタイルシ ー
+トを使用する場合 ，
+ []
+
+[2]
+Overfull \hbox (4.20454pt too wide) in paragraph at lines 209--220
+[]\OT1/cmtt/m/n/10.95 \def\moku#1{\addtocounter{paragraph}{1}% 
+ []
+
+
+Overfull \hbox (4.20454pt too wide) in paragraph at lines 209--220
+[]\OT1/cmtt/m/n/10.95 \noindent \textbf{(\theparagraph) #1}\\} 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 225--227
+[]\JY1/mc/m/n/10.5 図 ・ 表 ・ 写真は ， 本文中の適当な箇所に挿入
+ []
+
+
+Underfull \hbox (badness 8075) in paragraph at lines 225--227
+\JY1/mc/m/n/10.5 してください ． \OT1/cmtt/m/n/10.95 \table\JY1/mc/m/n/10.5 ， 
+\OT1/cmtt/m/n/10.95 \table*\JY1/mc/m/n/10.5 ， \OT1/cmtt/m/n/10.95 \tabular\JY1
+/mc/m/n/10.5 ，
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+(./Table-youhou.tex
+
+LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
+(Font)              using `JT1/mc/m/n' instead on input line 9.
+
+
+LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
+(Font)              using `JY1/mc/m/n' instead on input line 9.
+
+)
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 243.
+
+
+Overfull \hbox (3.37411pt too wide) in paragraph at lines 266--269
+[] [] 
+ []
+
+
+Underfull \vbox (badness 1546) has occurred while \output is active []
+
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 310--313
+[]\OT1/cmr/m/n/10.95 Bandula, A. So-cial Foun-da-tions of
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 330--331
+[]\JY1/mc/m/it/10.5 科学技術情報流通技術基準 \OT1/cmr/m/n/10.95 SIST02 \JY1/mc/
+m/it/10.5 書誌
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+\JY1/mc/m/it/10.5 的情報の記述 $\OML/cmm/m/it/10.95 <$\OT1/cmr/m/n/10.95 http:/
+/www.jst.go.jp/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+\OT1/cmr/m/n/10.95 SIST/handbook/sist02/sist02[]m.htm$\OML/cmm/m/it/10.95 >$\OT
+1/cmr/m/n/10.95 ,
+ []
+
+[5] (./jsims-article-template.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.45pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1201 strings out of 95552
+ 14628 string characters out of 1191858
+ 67195 words of memory out of 1000000
+ 4346 multiletter control sequences out of 10000+50000
+ 14435 words of font info for 57 fonts, out of 500000 for 2000
+ 14 hyphenation exceptions out of 1000
+ 34i,14n,43p,305b,481s stack positions out of 1500i,500n,5000p,200000b,5000s
+
+Output written on jsims-article-template.dvi (5 pages, 22948 bytes).

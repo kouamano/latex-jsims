@@ -1,0 +1,94 @@
+%% This LaTeX file was created by AbiWord.
+%% AbiWord is a free, Open Source word processor.
+%% You may obtain more information about AbiWord at www.abisource.com
+%% Modified by K. Amano
+\documentclass[12pt]{imsarticle}
+\usepackage[T1]{fontenc}
+\usepackage{calc}
+\usepackage{setspace}
+%\usepackage{multicol}		% TODO: I don't need this package if the document is a single column one.
+\usepackage[normalem]{ulem}	% TODO: Package is only needed if you have underline/strikeout.
+\usepackage{color}		% TODO: Package is only needed if you have color.
+\setlength{\oddsidemargin}{1.2500in-1in}
+\setlength{\textwidth}{\paperwidth - 1.2500in-1.2500in}
+\renewcommand{\refname}{参考文献}
+%(*編集局が適宜書き込んで下さい
+\def\sessionname{情報メディア学会第N回研究会}
+\def\sessionstart{YYYY年MM月DD日(W)}
+\def\sessionover{YYYY年MM月DD日(W)}
+\def\sessionplace{場所}
+\def\deadline{YYYY年MM月DD日(W)}
+\def\contactaddress{住所}
+\def\contactperson{人}
+\def\contactmail{mail}
+\def\contact{{\contactaddress} {\contactperson} 宛 e-mail: {\contactmail}}
+%*)
+\pagestyle{empty}
+
+\begin{document}
+\begin{center}
+題目(和文):原稿執筆に関するお願い \\
+題目(英文):How to write your paper \\
+{\hfill 【$\leftarrow$行あけ】 } \\
+副題が必要な場合、和英、各行で記入する \\
+副題が必要な場合、和英、各行で記入する \\
+{\hfill 【$\leftarrow$行あけ】 } \\
+\begin{tabular}{cc}
+\uline{発表者の和文氏名}$^1$ & \uline{を記入する。複数の場合は、連記}$^2$ \\
+\uline{発表者の英文氏名}$^1$ & \uline{を和文氏名の下に記入する}$^2$ \\
+$^1$\uline{発表者所属の和文名称} & $^2$\uline{を、氏名に対応づけて記入する} \\
+$^1$\uline{発表者所属の英文名称} & $^2$\uline{を、氏名に対応づけて記入する} \\
+\end{tabular}
+\end{center}
+
+\begin{flushright}{ 【$\leftarrow$行あけ】 }\end{flushright}
+
+\noindent{}あらまし:この部分には、ご発表内容の概要を読者に伝えられるように、そのあらましを200字程度で書いてください。この例の場合、1行あたり37字ですので、約5行が目安となります。
+
+この原稿は、発表申し込みをされた方に対する「発表資料原稿のご執筆依頼」と「原稿の書き方に関するお願い」を兼ねています。
+\\{\hfill 【$\leftarrow$行あけ】 } \\
+\noindent{}キーワード:情報メディア学会、研究会、執筆要領、提出方法、ファイル、連絡先
+
+\begin{flushright}{ 【$\leftarrow$行あけ】 }\end{flushright}
+
+\section{はじめに}\indent
+
+この度は、{\sessionname}の発表にお申し込みいただき、ありがとうございます。発表資料作成のための原稿を本執筆要領に従ってご提出いただきますようお願い申し上げます。研究会は、{\sessionstart}--{\sessionover}、{\sessionplace}にて行われます。
+
+\section{原稿の執筆にかかわる制限事項}\indent
+
+本文は、\textcolor[rgb]{1.000,0.000,0.000}{1段組み}、\textcolor[rgb]{1.000,0.000,0.000}{42字×45行}/頁、マージン \textcolor[rgb]{1.000,0.000,0.000}{上下端25mm}程度 \textcolor[rgb]{1.000,0.000,0.000}{左右25mm}程度を目安とし、用紙は \textcolor[rgb]{1.000,0.000,0.000}{A4サイズ・縦}を用いて下さい(imsarticleスタイル\cite{Amano})。
+
+ご提出いただいた原稿を元に、そのまま複写機によるモノクロ印刷等で、A4判の資料を作成いたしますので、\textcolor[rgb]{1.000,0.000,0.000}{完成原稿の状態で印刷}したものと\textcolor[rgb]{1.000,0.000,0.000}{WORD ( or 一太郎 or PDF) 形式のファイル}をご提出ください。資料作成の都合上、「\textcolor[rgb]{1.000,0.000,0.000}{頁}」\textcolor[rgb]{1.000,0.000,0.000}{は印刷せず、鉛筆書き}にして下さい。
+
+当学会の\LaTeX{}スタイルファイル(imsarticle.sty/imsarticle.cls)を用いるとほとんどすべての要件を満たします。ただし、\verb$\maketitle$は使わないで下さい。タイトル/著者/所属はドキュメント中に直接書かれます。
+
+執筆枚数は、\textcolor[rgb]{1.000,0.000,0.000}{2頁}、または、\textcolor[rgb]{1.000,0.000,0.000}{4頁}です(超過する場合は、研究会担当にご相談下さい)。
+もし、ご提出いただいた原稿枚数が、奇数頁の場合には、白紙を追加し、偶数に揃えます。
+
+なお、発表資料に対する\textcolor[rgb]{1.000,0.000,0.000}{別刷りは作成いたしません}ので御了承ください。
+
+\subsection{章立て}\indent
+
+章立てはこのようにアラビア数字を用いて章.節.項をドットで結合し、かつ、下線を引いて下さい(スタイルファイルに組込み済み)。また、「情報メディア研究」スタイルファイルと違い、目は定義されていません。
+
+\section{送付方法、締め切り}\indent
+
+封筒に\textcolor[rgb]{1.000,0.000,0.000}{原稿在中}、\textcolor[rgb]{1.000,0.000,0.000}{折り曲げ厳禁}と朱書きして、原稿を\textcolor[rgb]{1.000,0.000,0.000}{そのまま折らずに}お送り下さい。
+
+原稿締切は、印刷等準備の都合上、\textcolor[rgb]{1.000,0.000,0.000}{\deadline}です。発表を取り消される場合には、直ちに、研究会担当までお知らせ下さい。なお、期限までに連絡もなく原稿を御提出いただけなかった場合には、取り消しとさせていただきますので、ご承知おき下さい。
+
+よろしく御協力のほど、お願い申し上げます。
+
+\
+
+連絡先:\contact
+
+\section*{謝辞}
+謝辞には\verb$\section*$を用いて下さい。
+参照には\verb$thebibliography$環境が使えます。
+
+\begin{thebibliography}{15}
+\bibitem{Amano} Amano,K., Hayashi,Y., (2006) {\it How to write \LaTeX{} file for JSIMS}.
+\end{thebibliography}
+\end{document}

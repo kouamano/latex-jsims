@@ -1,0 +1,93 @@
+%%\documentclass[10.5pt]{article}
+\documentclass[a4j]{jarticle}
+\def\mailto{edit@jsims.jp} %編集局mail
+%% (* ここから著者が記入して下さい
+\def\Afurigana{ふりがな} %第一著者の振りがな
+\def\Author{氏名} %第一著者氏名
+\def\Affiliation{所属} %第一著者所属
+\def\CorAuthor{氏名} %コレスポンディング著者の名前
+\def\CorAuthMail{mail} %コレスポンディング著者のmail
+\def\CorAuthTel{tel} %コレスポンディング著者の電話
+\def\CorAuthAddr{addr} %コレスポンディング著者の住所
+\def\CorAuthAffl{affliation} %コレスポンディング著者の所属
+\def\articletitle{タイトル} %論文タイトル
+\def\pages{n} %論文の総ページ数
+\def\nfigs{n} %図の総数
+\def\ntabs{n} %表の総数
+\def\napds{n} %付録のページ数
+\def\jka{キーワード1} %日本語キーワード
+\def\jkb{キーワード2}
+\def\jkc{キーワード3}
+\def\jkd{キーワード4}
+\def\jke{キーワード5}
+\def\eka{keyword 1} %英語キーワード
+\def\ekb{keyword 2}
+\def\ekc{keyword 3}
+\def\ekd{keyword 4}
+\def\eke{keyword 5}
+\def\progname{TeX}
+\def\progver{ver 3.1}
+%% ここまで *)
+%% あとでもう一ヶ所、著者が記入する場所があります
+\def\CorAuthContact{ご氏名: \CorAuthor \\ ご住所: \CorAuthAddr \\ 電子メールアドレス(可能ならば): \CorAuthMail \\ 電話番号(電子メールアドレスを記載されない場合は必ず): \CorAuthTel}
+
+\begin{document}
+\begin{flushleft}{toukou\_card\_v03 2004\_09\_26}\end{flushleft}
+\ \ 情報メディア学会 投稿カード(投稿論文と同時に送付: 送付先: \mailto)\\
+\\
+フリガナ: \Afurigana\\
+著者氏名: \Author\\
+著者所属: \Affiliation\\
+\\
+原稿のタイトル: \articletitle \\
+\\
+%% (* ここも著者が記入して下さい(該当を＼textcircled{}でかこむ)
+\begin{tabular}{lll}
+\multicolumn{3}{l}{投稿論文の種類(該当するものに{\textcircled{丸}}をつけてください)} \\
+\textcircled{a1}. 原著論文(研究論文)& a2. 原著論文(事例研究論文)& a3. 原著論文(調査論文) \\
+a4. 原著論文(サーベイペーパー)& & \\
+b. 解説・資料論文& c. レター& d. 作品 \\ 
+\end{tabular}
+%% ここまで *)
+%% 著者による記入はこれでおわりです。
+\\
+\vspace{5mm}
+\\
+\begin{tabular}{llr}
+原稿の&枚数&{\pages}枚 \\
+&図の数&{\nfigs}枚 \\
+&表の数&{\ntabs}枚 \\
+付録の&枚数&{\napds}枚 \\
+\end{tabular}
+\\
+\vspace{5mm}
+\\
+\begin{tabular}{ll}
+\multicolumn{2}{l}{論文等の主題を示す日本語キーワード(5件程度)} \\
+(1) \jka & (2) \jkb \\
+(3) \jkc & (4) \jkd \\
+(5) \jke & \\
+\end{tabular}
+\\
+\vspace{5mm}
+\\
+\begin{tabular}{ll}
+\multicolumn{2}{l}{論文等の主題を示す英語キーワード(5件程度)} \\
+(1) \eka & (2) \ekb \\
+(3) \ekc & (4) \ekd \\
+(5) \eke & \\
+\end{tabular}
+\\
+\vspace{5mm}
+\\
+\begin{tabular}{ll}
+\multicolumn{2}{l}{(文書ファイルとして送られた場合は)} \\
+ワープロソフトの名前: \progname & バージョン: \progver \\
+\end{tabular}
+\\
+\vspace{5mm}
+\\
+連絡先(著者が複数の場合は、編集委員会からの連絡を代表して受け取られる方についてご記入ください)
+\\
+\CorAuthContact
+\end{document}
